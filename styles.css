@@ -1,0 +1,110 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: lightgray;
+   /* color: black;*/
+    font-weight: 700;
+    
+    
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*Header Styles*/
+
+header{
+    text-align: center;
+    background: lightcoral;
+    color: darkred;
+    padding-left: 20px;
+    margin: 5px;
+}
+
+header img{
+    border-radius: 75%;
+    margin-top: 30px;
+}
+
+/*Main content*/
+
+main {
+    max-width: 1200px;
+    margin: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.3);
+    
+    
+}
+
+
+/* Sections */
+
+h2{
+    margin-top: 20px;
+    color: #454b1b;
+    
+}
+
+/* Footer */
+
+Footer{
+    text-align: center;
+    background: #7777;
+    font-weight: 800;
+    
+}
+
+blockquote{
+    font-weight: 800;
+
+}
+
+nav{
+    background-color: lightblue;
+    padding: 20px;
+    margin: 0px 40px;
+    text-align: center;
+
+    
+}
+
+nav a {
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+#quote{
+    background-color: rgb(166, 175, 172);
+    border-bottom: 4px solid black;
+    font-style: italic;
+}
+
+/* The CSS codes below demonstrates specificity overiding */
+
+p {
+    color: rgb(167, 97, 26); /* Default color */
+
+}
+
+
+main p {
+    color: #000;/* This overrides the default color because it has higher preference than type selectors */
+}
+
+#achievements{
+    color: rgb(89, 91, 91); /* This will overrides both the default & main color since an ID selector has a higher preference */
+}
+
+
+
+
+
+
+
